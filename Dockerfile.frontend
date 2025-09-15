@@ -12,7 +12,7 @@ COPY frontend/src ./src
 COPY frontend/public ./public
 RUN npm run build
 
-# Production stagek
+# Production stage
 FROM nginx:alpine
 
 # Copy built app to nginx
